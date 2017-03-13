@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NBA_Статистика"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="400" Width="600">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button>
+            <Image Source="Players.jpg" Height="150" Grid.Column="1"/>
+        </Button>
+        <Button>
+            <Image Source="Teams.jpg" Height="150" Grid.Column="0"/>
+        </Button>
+    </StackPanel>
 </Window>
+
